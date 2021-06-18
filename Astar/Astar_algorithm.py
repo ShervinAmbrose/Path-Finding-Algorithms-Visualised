@@ -336,7 +336,7 @@ class App(object):
             self.removeBarrier = []
 
         if keys[pygame.K_r]:
-            for i in range((ROWS * ROWS) // 4):
+            for i in range((ROWS * ROWS) // 6):
                 x = random.randint(0, ROWS - 1)
                 y = random.randint(0, ROWS - 1)
                 if (x, y) != self.startCoord and (x, y) != self.endCoord:
